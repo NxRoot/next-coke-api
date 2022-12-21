@@ -22,7 +22,7 @@
   </div>
   
 ## Demo
-  [![Edit next-coke-api](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/next-coke-api-7swl7u?fontsize=14&hidenavigation=1&theme=dark&file=/pages/index.tsx)
+  [![Edit next-coke-api](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/next-coke-api-7swl7u?fontsize=10&hidenavigation=1&theme=dark&file=/pages/index.tsx)
 
 ## Description
 
