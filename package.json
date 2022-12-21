@@ -1,0 +1,35 @@
+{
+  "name": "next-coke-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "release": "npm run build && npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NxRoot/next-coke-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NxRoot/next-coke-api/issues"
+  },
+  "homepage": "https://github.com/NxRoot/next-coke-api#readme",
+  "keywords": [
+    "nextjs",
+    "bridge",
+    "connect",
+    "typescript"
+  ],
+  "author": "NxRoot",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
+  "types": "./lib/index.d.ts"
+}

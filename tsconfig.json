@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "incremental": false,            /* Enable incremental compilation */
+    "module": "commonjs",
+    "target": "es2017",        /* Specify ECMAScript target version: */
+    "declaration": true,
+    "moduleResolution": "node",
+    "outDir": "lib",                /* Redirect output to the directory. */
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,        /* Enables intero between CommonJS and ES */
+    "skipLibCheck": true,           /* Skip type checking of declaration files. */
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently */
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
