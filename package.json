@@ -19,7 +19,9 @@
     "nextjs",
     "bridge",
     "connect",
-    "typescript"
+    "typescript",
+    "REST",
+    "api"
   ],
   "author": "NxRoot",
   "license": "ISC",

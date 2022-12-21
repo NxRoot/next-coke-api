@@ -67,8 +67,9 @@ export function nextCokeClient<T>({ isREST, fetcher, customUrl }: NextCokeClient
     }
 }
 
-export async function nextCokeHandler(req, res, router) {
-    const data = await router[req.query.route](req.body)
+export async function nextCokeHandler(req, res, router, isREST = false) {
+    const routing = isREST ? router[req.query.route][req.method] : router[req.query.route]
+    const data = await routing(req.body)
     return res.status(200).json(data)
 }
 
