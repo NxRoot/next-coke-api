@@ -65,6 +65,39 @@ coke.getName({ name: "John" }).then((res) => {
 
 ```
 
+## Using REST [WIP]
+
+**Server**
+```js
+// define REST methods
+const routes = {
+    users: {
+        POST: async (body) => {
+            return "You created a user. Congratulations " + body.name 
+        }
+    } 
+}
+
+// export types to the client
+export type AppRoutes = typeof routes
+
+// export nextCokeHandler with last arg as TRUE
+export default function handler(req, res) {
+    return nextCokeHandler(req, res, routes, true)
+}
+```
+**Client**
+```js
+// define coke client with isREST = true
+const { coke } = nextCokeClient<AppRoutes>({ isREST: true })
+
+// call REST methods
+coke.users.POST({ name: "John" }).then((res) => {
+    console.log(res)
+})
+
+```
+
 ## TODO
 * Allow other REST methods.
 * Refactor communication arguments.
