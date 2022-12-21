@@ -1,7 +1,7 @@
 {
   "name": "next-coke-api",
   "version": "1.0.3",
-  "description": "",
+  "description": "Typed communication between NextJS server/client. ",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
