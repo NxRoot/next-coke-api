@@ -15,7 +15,7 @@
     <img src="https://i.ibb.co/tHRYyt9/ezgif-com-gif-maker-6.gif" alt="example" />
     <figcaption>
       <p align="center">
-        Typed communication between NextJS server/client.<br>Only <b>2kb</b> to see magic happening.
+        Typed communication between [NextJS](https://nextjs.org/) server/client.<br>Only <b>2kb</b> to see magic happening.
       </p>
     </figcaption>
   </figure>
@@ -26,7 +26,7 @@
 
 ## Description
 
-* This package provides simple methods to develop client/server communication using [NextJS](https://nextjs.org/).
+* This package provides simple methods to develop client/server communication using NextJS.
 * Next has a huge potential, but the **communication can be tricky** for starters, that's why we exist.
 * Coke works by creating a proxy from the server routes and abstracting its methods with "client-ready" functionality.
 
@@ -34,12 +34,12 @@
 ```
 npm i next-coke-api
 ```
-**You need to structure your `api` folder** to use the `[...route].tsx` slug <br>
+**You need to structure your `api` folder** to use the `[...route].ts` slug <br>
 
 ```
 📂 pages
  ├─📂 api
- │  └─📄 [...route].tsx 
+ │  └─📄 [...route].ts
  ├─📄 _app.tsx
  ├─📄 _document.tsx
  ├─📄 index.tsx 
