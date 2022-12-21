@@ -15,7 +15,7 @@
     <img src="https://i.ibb.co/tHRYyt9/ezgif-com-gif-maker-6.gif" alt="example" />
     <figcaption>
       <p align="center">
-        Typed communication between [NextJS](https://nextjs.org/) server/client.<br>Only <b>2kb</b> to see magic happening.
+        Typed communication between <a href="https://nextjs.org/" target="_blank">NextJS</a> server/client.<br>Only <b>2kb</b> to see magic happening.
       </p>
     </figcaption>
   </figure>
