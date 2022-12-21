@@ -8,8 +8,18 @@
     <img alt="next-coke-api" src="https://i.ibb.co/Z8NL37W/dfgdgf.png" />
   </picture>
 </a>
-<br><br>
-Typed communication between NextJS server/client.
+
+##
+<div align="center" >
+ <figure>
+    <img src="https://i.ibb.co/tHRYyt9/ezgif-com-gif-maker-6.gif" alt="example" />
+    <figcaption>
+      <p align="center">
+        Typed communication between NextJS server/client.
+      </p>
+    </figcaption>
+  </figure>
+  </div>
 
 ## Description
 
