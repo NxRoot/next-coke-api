@@ -1,6 +1,14 @@
-# next-coke-api 👑
+<div align="center" >
+  <h1>next-coke-api 👑</h1>
+</div>
 
-
+<a href="https://github.com/NxRoot/next-coke-api" target="_blank" rel="noopener">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/Z8NL37W/dfgdgf.png" />
+    <img alt="next-coke-api" src="https://i.ibb.co/Z8NL37W/dfgdgf.png" />
+  </picture>
+</a>
+<br><br>
 Typed communication between NextJS server/client.
 
 ## Description
@@ -61,4 +69,3 @@ coke.getName({ name: "John" }).then((res) => {
 * Allow other REST methods.
 * Refactor communication arguments.
 * Create more examples.
-
