@@ -20,10 +20,13 @@
     </figcaption>
   </figure>
   </div>
+  
+## Demo
+  [![Edit next-coke-api](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/next-coke-api-7swl7u?fontsize=14&hidenavigation=1&theme=dark&file=/pages/index.tsx)
 
 ## Description
 
-* This package allows a simple way to develop client/server communication using NextJS.
+* This package allows a simple approach to develop client/server communication using NextJS.
 * Next has a huge potential, but the communication can be tricky for starters, that's why we exist.
 * Coke works by creating a proxy from the server routes and abstracting its methods with "client-ready" functionality.
 
