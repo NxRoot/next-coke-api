@@ -15,7 +15,7 @@
     <img src="https://i.ibb.co/tHRYyt9/ezgif-com-gif-maker-6.gif" alt="example" />
     <figcaption>
       <p align="center">
-        Typed communication between NextJS server/client.
+        Typed communication between NextJS server/client.<br>Only <b>2kb</b> to see magic happening.
       </p>
     </figcaption>
   </figure>
@@ -26,8 +26,8 @@
 
 ## Description
 
-* This package allows a simple approach to develop client/server communication using NextJS.
-* Next has a huge potential, but the communication can be tricky for starters, that's why we exist.
+* This package provides simple methods to develop client/server communication using [NextJS](https://nextjs.org/).
+* Next has a huge potential, but the **communication can be tricky** for starters, that's why we exist.
 * Coke works by creating a proxy from the server routes and abstracting its methods with "client-ready" functionality.
 
 ## Installation 
@@ -80,6 +80,8 @@ coke.getName({ name: "John" }).then((res) => {
 
 ## Using REST [WIP]
 
+> Everything works using REST methods, but the GET method is receiveing `req.body` instead of `req.query`.
+
 **Server**
 ```js
 // define REST methods
@@ -112,6 +114,5 @@ coke.users.POST({ name: "John" }).then((res) => {
 ```
 
 ## TODO
-* Allow other REST methods.
 * Refactor communication arguments.
 * Create more examples.
