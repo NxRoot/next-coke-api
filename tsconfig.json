@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "preserve",
     "incremental": false,            /* Enable incremental compilation */
-    "module": "ESNext",
+    "module": "commonjs",
     "target": "es2017",        /* Specify ECMAScript target version: */
     "declaration": true,
     "moduleResolution": "node",

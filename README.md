@@ -1,5 +1,5 @@
 <div align="center" >
-  <h1>next-coke-api 👑</h1>
+  <h1>Next Coke API 👑</h1>
 </div>
 
 <a href="https://github.com/NxRoot/next-coke-api" target="_blank" rel="noopener">
