@@ -31,6 +31,11 @@
 * Coke works by creating a proxy from the server routes and abstracting its methods with "client-ready" functionality.
 * It **does not** use a custom server, we use the default 'pages' file system, allowing next to **preserve optimizations**.
 
+## Examples
+* [coke-minimal](https://github.com/NxRoot/next-coke-api/tree/master/examples/coke-minimal)
+* [coke-firebase-auth](https://github.com/NxRoot/next-coke-api/tree/master/examples/coke-firebase-auth)
+* [coke-chakra-ui](https://github.com/NxRoot/next-coke-api/tree/master/examples/coke-chakra-ui)
+
 ## Installation 
 ```
 npm i next-coke-api
