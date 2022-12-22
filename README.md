@@ -93,9 +93,7 @@ coke.getName({ name: "John" }).then((res) => {
 
 ```
 
-## Using REST [WIP]
-
-> Everything works using REST methods, but the GET method is receiving `req.body` instead of `req.query`.
+## Using REST
 
 **Server**
 ```typescript
@@ -174,5 +172,5 @@ coke.getName({ name: "John" }).then((res) => {
 ```
 
 ## TODO
-* Refactor communication arguments.
+* Support full headers instead of authorization only.
 * Create more examples.
