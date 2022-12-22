@@ -37,8 +37,8 @@ function Index() {
                 <button onClick={()=>auth.signOut()}>Logout</button>
             </div>
             <div style={{padding: 20}}>
-                <div>{name}</div>
-                <div>{numbers}</div>
+                <div>{JSON.stringify(name)}</div>
+                <div>{JSON.stringify(numbers)}</div>
                 <button onClick={get}>Send</button>
             </div>
         </div>

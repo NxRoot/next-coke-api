@@ -25,8 +25,8 @@ function Index() {
 
     return (
         <Box p="4">
-            <Box>{name}</Box>
-            <Box>{numbers}</Box>
+            <Box>{JSON.stringify(name)}</Box>
+            <Box>{JSON.stringify(numbers)}</Box>
             <Button onClick={get}>Send</Button>
         </Box>
     )

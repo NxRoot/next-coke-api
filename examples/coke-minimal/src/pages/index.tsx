@@ -24,8 +24,8 @@ function Index() {
 
     return (
         <div>
-            <div>{name}</div>
-            <div>{numbers}</div>
+            <div>{JSON.stringify(name)}</div>
+            <div>{JSON.stringify(numbers)}</div>
             <button onClick={get}>Send</button>
         </div>
     )
