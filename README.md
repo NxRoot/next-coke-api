@@ -29,6 +29,7 @@
 * This package provides simple methods to develop client/server communication using NextJS.
 * Next has a huge potential, but the **communication can be tricky** for starters, that's why we exist.
 * Coke works by creating a proxy from the server routes and abstracting its methods with "client-ready" functionality.
+* It **does not** use a custom server, we use the default 'pages' file system, allowing next to **preserve optimizations**.
 
 ## Installation 
 ```
