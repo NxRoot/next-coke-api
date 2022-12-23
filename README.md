@@ -100,8 +100,8 @@ coke.getName({ name: "John" }).then((res) => {
 // define REST methods
 const routes = {
     users: {
-        POST: async (body) => {
-            return "You created a user. Congratulations " + body.name 
+        POST: async (req, res) => {
+            return "You created a user. Congratulations " + req.body.name 
         }
     } 
 }

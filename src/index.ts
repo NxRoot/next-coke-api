@@ -29,7 +29,7 @@ function restFormat(prop, fetcher, token = "") {
     const api = nextCokeApi()
     const url = prop
     return {
-        GET: () => api.send({ method: "GET", url, token }),
+        GET: (id) => api.send({ method: "GET", url: path.join(url, id), token }),
         PUT: (body) => api.send({ method: "PUT", url, body, token }),
         POST: (body) => api.send({ method: "POST", url, body, token }),
         DELETE: (body) => api.send({ method: "DELETE", url, body, token }),
@@ -69,8 +69,8 @@ export function nextCokeClient<T>({ isREST, fetcher, customUrl }: NextCokeClient
 
 export async function nextCokeHandler(req, res, router, isREST = false) {
     const data = req.method === "GET" ? req.query : req.body
-    const routing = isREST ? router[req.query.route][req.method] : router[req.query.route]
-    const result = await routing(data)
+    const routing = isREST ? router[req.query.route[0]][req.method] : router[req.query.route[0]]
+    const result = isREST ? await routing(req, res) : await routing(data)
     return res.status(200).json(result)
 }
 
